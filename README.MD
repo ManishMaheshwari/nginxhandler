@@ -24,6 +24,8 @@ nc -k -l 10000
 nc -k -l 11000
 
 #####Various curl commands to validate the routing
+
+```
 curl -i http://localhost:8080
 curl -i http://localhost:8080/groovy
 curl -i http://localhost:8080/clojure
@@ -40,3 +42,4 @@ curl -i http://localhost:8080/boss
 curl -i -H 'X-Server-Select: default' http://localhost:8080/boss
 curl -i -H 'X-Server-Select: staging' http://localhost:8080/boss
 curl -i -H 'X-Server-Select: dev' http://localhost:8080/boss
+```
